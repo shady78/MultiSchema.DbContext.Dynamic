@@ -78,11 +78,7 @@ public IActionResult GetAll([FromQuery] string schema)
 
 ## 🏗️ Architecture
 
-The solution implements a three-layer architecture:
-
-1. **Middleware Layer**: Handles schema resolution from HTTP headers
-2. **Service Layer**: Manages schema state and validation
-3. **Data Layer**: Implements dynamic schema switching in EF Core
+The solution implements a One-layer architecture:
 
 ## 🔑 Key Components
 
